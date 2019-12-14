@@ -161,6 +161,7 @@ section h1{
 .grid{
     display: flex;
     justify-content: center;
+    justify-items: center;
 }
 
 .grid > div{
@@ -208,22 +209,21 @@ section h1{
 }
 
 #work{
-    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('img/background-work.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: black;
     width: 100%;
     height: auto;
 }
 
 #education{
-    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('img/background-edu.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color:whitesmoke;
     width: 100%;
     height: auto;
-    color: whitesmoke;
+    color: black;
 }
 
+#education h1{
+    color: black;
+}
 #education .grid p{
     text-align: center;
     font-size: 10px;
@@ -232,8 +232,9 @@ section h1{
 
 footer{
     text-align: center;
-    background: rgb(153, 146, 146);
+    background: black;
     padding: 20px 20px;
+    color: whitesmoke;
 }
 
 footer h1{
