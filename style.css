@@ -68,10 +68,10 @@ nav li a:hover{
 .box{
     position: relative;
     width: 450px;
-    height: 560px;
+    height: 589px;
     background: rgba(0, 0, 0, 0.6);
     border-radius: 5%;
-    padding:27px;
+    padding:30px;
     text-align: center;
     margin: auto;
     top: 100px;
