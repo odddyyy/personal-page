@@ -72,9 +72,9 @@ nav li a:hover{
     background: rgba(0, 0, 0, 0.6);
     border-radius: 5%;
     padding:30px;
-    text-align: center;
     margin: auto;
-    top: 100px;
+    text-align: center;
+    top: 70px;
     color: whitesmoke;
 }
 
